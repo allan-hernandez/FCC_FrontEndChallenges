@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  background-color: lighten(black,15%);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  color: darken(white, 20%);
+  text-stroke: 2px black;
+  text-shadow: 5px 5px 1px black;
+  text-align: center;
+  margin-botton: 15px;
+}
+
+.well {
+  background-color: lighten(silver, 50%);
+  font-family: 'Comfortaa', cursive;
+  padding: 10px;
+  font-size: 120%;
+}
+
+.signature {
+  font-family: 'Pacifico', cursive;
+  font-size: 90%;
+}
+
+.centerer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.bottom-out{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:10px;
+  background-color:darken(silver,10%);
+}
+
+.btn-twitter{color:#fff;background-color:#55acee;border-color:rgba(0,0,0,0.2)}.btn-twitter:focus,.btn-twitter.focus{color:#fff;background-color:#2795e9;border-color:rgba(0,0,0,0.2)}
+
+.btn-google{color:#fff;background-color:#dd4b39;border-color:rgba(0,0,0,0.2)}.btn-google:focus,.btn-google.focus{color:#fff;background-color:#c23321;border-color:rgba(0,0,0,0.2)}
