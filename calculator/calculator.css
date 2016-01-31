@@ -1,0 +1,45 @@
+.col-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+container {
+  position: relative;
+}
+
+button {
+  background: #FFFFFF;
+}
+
+body {
+  background: #0C141F;
+  background-image: 
+    radial-gradient(80% 20% ellipse at center top, #DF740C 0%,rgba(12, 20, 31, 0) 100%),
+    radial-gradient(80% 20% ellipse at center bottom, #6FC3DF 0%, #0C141F 100%);
+  background-attachment: fixed;
+}
+
+div {
+  font-size: 30px;
+  text-align: center;
+
+  -webkit-animation: neon1 2s ease-in-out infinite alternate;
+  -moz-animation: neon1 2s ease-in-out infinite alternate;
+  animation: neon1 2s ease-in-out infinite alternate;
+}
+
+.keys {
+  background: blue !important;
+}
+
+// use this for neon - create white/font color shadow and cycle back and forth
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 5px #E6FFFF, 0 0 8px #FFE64D;
+  }
+  to {
+    text-shadow: 0 0 8px #fff, 0 0 12px #fff, 0 0 15px #FFE64D;
+  }
+}
