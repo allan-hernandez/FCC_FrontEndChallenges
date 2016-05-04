@@ -1,0 +1,49 @@
+a {
+  color: #35A7FF;
+  font-size: 50px;
+}
+
+body {
+  background: #222222;
+}
+
+h1 {
+  color: #BCBCBC;
+  font-family: 'Homemade Apple';
+  text-align: center;
+  font-size: 58px;
+}
+
+div {
+  margin: 0 auto;
+}
+
+.clock {
+  background: #FF4146;
+  background-size: 50% 100%;
+  width: 300px;
+  border-radius: 100px 100px 5px 5px;
+}
+
+.center-block {
+  display: table;
+  margin: auto;
+}
+
+.times {
+  font-family: 'Monofett', cursive;
+  font-size: 35px;
+  color: black;
+}
+
+.headings {
+  font-family: 'Lemon', cursive;
+  font-size: 30px;
+  color: black;
+}
+
+.trigger {
+  font-size: 15px;
+  font-family: 'arial';
+  border-radius: 5px;
+}
