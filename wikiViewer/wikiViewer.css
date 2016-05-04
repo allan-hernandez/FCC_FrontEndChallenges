@@ -1,0 +1,44 @@
+
+dy {
+  background-color: #FFFFFF;
+}
+
+h1,h3 {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 10px;
+  background-color: #0079B7;
+  height: 60%;
+  width: 50%;
+  outline: 0px solid #D52941;
+  box-shadow: 5px 5px 25px #D52941;
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.center-block {
+  display: table;
+  margin: auto;
+}
+
+.page-break {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.panel {
+  width: 70%;
+  box-shadow: 5px 5px 25px #D52941;
+}
+
+.results {
+  background: #000000;
+  color: #FFFFFF;
+}
